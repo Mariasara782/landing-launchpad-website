@@ -117,4 +117,38 @@ nav li a {
     max-width: 400px;
     margin-bottom: 20px;
 }
-img{border-radius: 48px;}
+
+img {
+    border-radius: 48px;
+}
+
+/* productive users related styles */
+.productive-users-section {
+    text-align: center;
+    background: rgba(78, 71, 255, 0.1);
+    margin: 115px 150px 130px 150px;
+    border-radius: 24px;
+    padding: 50px 140px 50px 140px;
+}
+
+.users-info {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+
+}
+
+.users-title {
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.users-subtitle {
+    
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+
+}
