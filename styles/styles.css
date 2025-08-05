@@ -1,8 +1,11 @@
-* { 
+* {
     margin: 0px;
 }
+
 /* body related styles */
-body{background-color:#F5F8FF}
+body {
+    background-color: #F5F8FF
+}
 
 .raleway {
     font-family: "Raleway", sans-serif;
@@ -177,24 +180,28 @@ img {
 }
 
 .rating-box {
-    background-color:#FFFFFF;
-    
-    
-    
+    background-color: #FFFFFF;
+
+
+
     border-radius: 14px;
     padding: 24px 24px;
 }
 
 
 .stars {
-    color: #FFB805;
+    
     margin-bottom: 24px;
 }
-.rating-title{margin-bottom: 8px;}
+
+.rating-title {
+    margin-bottom: 8px;
+}
 
 .reviewer {
     display: flex;
     margin-top: 24px;
+    gap: 10px;
 }
 
 .name {
@@ -204,4 +211,51 @@ img {
 
 .date {
     color: #B3B3B3;
+}
+
+/* contact section related styles */
+.contact-section {
+    display: flex;
+    gap: 115px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px 80px;
+    width: 1140px;
+}
+
+label {
+    font-size: 18px;
+
+}
+
+input {
+    padding: 20px 270px 20px 32px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea {
+    padding: 20px 257px 85px 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact-title {
+
+    font-weight: bold;
+    font-size: 97px;
+}
+
+.contact-btn {
+    background-color: #4E47FF;
+    padding: 20px 200px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
 }
