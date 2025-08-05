@@ -1,6 +1,8 @@
-* {
+* { 
     margin: 0px;
 }
+/* body related styles */
+body{background-color:#F5F8FF}
 
 .raleway {
     font-family: "Raleway", sans-serif;
@@ -146,9 +148,60 @@ img {
 }
 
 .users-subtitle {
-    
+
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
 
+}
+
+/* rating related styles */
+.rating-section {
+    margin: 0px 150px 135px;
+
+}
+
+.rating-main-title {
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    gap: 20px;
+}
+
+.rating-main-title {
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.rating-box {
+    background-color:#FFFFFF;
+    
+    
+    
+    border-radius: 14px;
+    padding: 24px 24px;
+}
+
+
+.stars {
+    color: #FFB805;
+    margin-bottom: 24px;
+}
+.rating-title{margin-bottom: 8px;}
+
+.reviewer {
+    display: flex;
+    margin-top: 24px;
+}
+
+.name {
+    font-weight: bold;
+    color: #757575;
+}
+
+.date {
+    color: #B3B3B3;
 }
