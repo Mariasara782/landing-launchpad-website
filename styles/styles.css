@@ -21,6 +21,27 @@ body {
     font-style: normal;
 }
 
+/* all button related style */
+.btn-primary {
+    font-size: 16;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+
+
+
+}
+button:hover {background-color:burlywood;
+    cursor: pointer;
+    color: black
+    
+    
+    
+}
+
 /* nav related styles */
 nav {
     background-image: url(../Assets/Hero-bg.png);
@@ -60,18 +81,7 @@ nav li a {
 
 }
 
-.btn-primary {
-    font-size: 16;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #4E47FF;
-    padding: 12px 36px;
-    border: none;
-    border-radius: 10px;
 
-
-
-}
 
 /* banner related styles */
 .banner {
@@ -123,7 +133,7 @@ nav li a {
     margin-bottom: 20px;
 }
 
-img {
+ img {
     border-radius: 48px;
 }
 
@@ -135,6 +145,11 @@ img {
     border-radius: 24px;
     padding: 50px 140px 50px 140px;
 }
+.users-title {
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 40px;
+}
 
 .users-info {
     display: flex;
@@ -144,11 +159,7 @@ img {
 
 }
 
-.users-title {
-    font-weight: bold;
-    font-size: 38px;
-    margin-bottom: 40px;
-}
+
 
 .users-subtitle {
 
@@ -166,6 +177,9 @@ img {
 
 .rating-main-title {
     text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 50px;
 }
 
 .rating {
@@ -173,25 +187,16 @@ img {
     gap: 20px;
 }
 
-.rating-main-title {
-    font-weight: bold;
-    font-size: 42px;
-    margin-bottom: 50px;
-}
 
 .rating-box {
     background-color: #FFFFFF;
-
-
-
     border-radius: 14px;
     padding: 24px 24px;
 }
 
 
 .stars {
-    
-    margin-bottom: 24px;
+     margin-bottom: 24px;
 }
 
 .rating-title {
@@ -222,6 +227,11 @@ img {
     margin: 0px 150px 80px;
     width: 1140px;
 }
+.contact-title {
+
+    font-weight: bold;
+    font-size: 97px;
+}
 
 label {
     font-size: 18px;
@@ -244,11 +254,7 @@ textarea {
     border: none;
 }
 
-.contact-title {
 
-    font-weight: bold;
-    font-size: 97px;
-}
 
 .contact-btn {
     background-color: #4E47FF;
@@ -258,4 +264,46 @@ textarea {
     color: #FFFFFF;
     border-radius: 10px;
     border: none;
+}
+
+/* footer related styles */
+footer {
+    background-color: #FFFFFF;
+    padding: 105px 450px;
+    
+    
+}
+
+.footer-website-name{
+    margin-bottom: 8px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+.footer-subtitle {
+    color: #8987A1;
+    margin-left:5px ;
+    margin-right:5px ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #8987A1;
+
 }
